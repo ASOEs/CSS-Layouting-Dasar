@@ -1,0 +1,65 @@
+.container-1 {
+    width: 600px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.container-1 img{
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.container-1 h2{
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.container-2{
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.kotak-1, .kotak-2, .kotak-3, .kotak-4, .kotak-5{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+    float: left;
+}
+
+.kotak-1{
+    background-color: aqua;
+}
+
+.kotak-2{
+    background-color: coral;
+}
+
+.kotak-3{
+    background-color: cornflowerblue;
+}
+
+.kotak-4{
+    background-color: chocolate;
+}
+
+.kotak-5{
+    background-color: green;
+}
+
+.cf:before, .cf:after{
+    content: " ";
+    display: table;
+}
+
+.cf:after{
+    clear: both;
+}

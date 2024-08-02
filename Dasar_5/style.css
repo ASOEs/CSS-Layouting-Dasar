@@ -1,0 +1,38 @@
+/* div{
+    width: 275px;
+    height: 275px;
+    background-color: cornflowerblue;
+    margin: 100px auto;
+    padding: 20px; */
+    /* dalam border terdapat 3 value yaitu untuk value pertama untuk menentukan ketebalan, value yang kedua untuk menentukan style bordernya (dibawah contohnya solid), value yang ketiga itu warna. */
+
+    /* untuk style nya ada beberapa contoh diantaranya:
+        1. solid
+        2. dotted
+        3. dashed
+        4. double
+    
+    */
+    /* border: 5px solid black;
+    
+
+} */
+
+div{
+    width: 600px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+.satu{
+    background-color: coral;
+    margin-top: 100px;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.dua{
+    background-color: cornflowerblue;
+    padding: 30px;
+    border: 12px dashed black;
+}

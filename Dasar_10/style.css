@@ -1,0 +1,21 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+
+/* position static, relative, absolut, dan fixed*/
+/* default value position adalah static */
+
+
+.satu{
+    background-color: green;
+}
+
+.dua{
+    background-color: violet;
+    position: relative;
+}
+
+.tiga{
+    background-color: gold;
+}

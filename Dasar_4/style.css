@@ -1,0 +1,47 @@
+.satu{
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    /* margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    margin-right: 50px; */
+    /* margin-right: auto;
+    margin-left: auto; */
+
+    /* shorthand */
+
+    /* 
+    ini artinya margin kanan kiri atas dan bawah masing masing memiliki margin 50px
+    margin: 50px; 
+    */
+
+    /* 
+    ini artinya value pertama yaitu 50px itu untuk atas dan bawah, dan yang value auto itu untuk kanan dan kiri.
+    margin:50px auto; 
+    */
+
+    /*
+    ini artinya value pertama yaitu untuk margin atas, value yang kedua untuk kanan dan kiri, dan value yang ketiga untuk margin bawahnya 
+    margin: 30px 50px 60px; 
+    */
+
+    /* 
+    ini artinya value pertama atas, kanan, bawah dan kiri
+    margin: 10px 20px 30px 40px; 
+    
+    */
+}
+
+.dua{
+    width: 100px;
+    height: 100px;
+    background-color: lightskyblue;
+    
+}
+
+.tiga{
+    width: 50px;
+    height: 50px;
+    background-color: lightcoral;
+}
